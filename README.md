@@ -1,4 +1,4 @@
-# 🎯 Predicción de Abandono de Clientes (Churn Prediction) usando modelos
+# 🎯 Modelos de machine learning: predicción de Abandono de Clientes (Churn Prediction)
 
 Este proyecto utiliza técnicas de machine learning para predecir la probabilidad de que un cliente abandone un servicio. El análisis se basa en un dataset con características demográficas y de comportamiento, aplicando modelos como XGBoost, LightGBM, Random Forest, Logistic Regression y un modelo de ensamble (stacking).
 
