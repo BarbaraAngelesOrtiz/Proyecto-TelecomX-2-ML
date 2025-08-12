@@ -3,6 +3,7 @@
 Este proyecto utiliza técnicas de machine learning para predecir la probabilidad de que un cliente abandone un servicio. El análisis se basa en un dataset con características demográficas y de comportamiento, aplicando modelos como XGBoost, LightGBM, Random Forest, Logistic Regression y un modelo de ensamble (stacking).
 
 El objetivo es desarrollar modelos capaces de identificar de forma anticipada a los clientes con mayor riesgo de cancelar sus servicios. Esto permitirá a la empresa implementar acciones preventivas para mejorar la retención, apoyándose en un pipeline de modelado sólido desde esta fase inicial. Se estudian patrones en variables contractuales, uso de servicios digitales y métodos de pago, integrando análisis exploratorio, matriz de correlaciones y explicaciones mediante SHAP.
+
 ---
 
 ## ✏️Metas Principales
@@ -107,10 +108,14 @@ pip install pandas matplotlib seaborn numpy plotly math matplotlib requests
 
 4. Ejecutá las celdas secuencialmente para replicar el análisis completo.
 
+---
+
 ## 📂 Project Access
 
 - [Notebook in Spanish](./TelecomX_LATAM2_es.ipynb)
 - [Notebook in English](./TelecomX_LATAM2_en.ipynb)
+
+---
 
 ## Author
 **Bárbara Ángeles Ortiz**
