@@ -93,7 +93,14 @@ Métricas principales usadas:
 #### Comparación de modelos métricas de clasificación
 <img width="846" height="548" alt="Comparación de modelos métricas de clasificación" src="https://github.com/user-attachments/assets/cbaa9079-bac5-47aa-84e3-d16b6441f5fa" />
 
+#### Comparativa de desempeño entre modelos
+<img width="863" height="690" alt="Comparativa de desempeño entre modelos" src="https://github.com/user-attachments/assets/106b72fc-2d66-4d0c-9b9e-41397754ca3c" />
 
+#### Curvas Precision-Recall comparativas de todos los modelos
+<img width="691" height="547" alt="Curvas Precision-Recall comparativas de todos los modelos" src="https://github.com/user-attachments/assets/21cb3e6a-b952-439d-b0f0-dfd5592820bb" />
+
+#### Curvas ROC comparativas de todos los modelos
+<img width="691" height="547" alt="Curvas ROC comparativas de todos los modelos" src="https://github.com/user-attachments/assets/f004beb9-8c7d-4e6b-9568-b290baa9097b" />
 
 ---
 
