@@ -143,4 +143,9 @@ pip install pandas matplotlib seaborn numpy plotly math matplotlib requests
 
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 
+## Agradecimientos 
+
+<img width="205" height="200" alt="Screenshot 2025-08-13 034705" src="https://github.com/user-attachments/assets/0a498e0a-f983-4934-be1d-c514a81dfa72" />
+<img width="225" height="225" alt="images" src="https://github.com/user-attachments/assets/658e5c00-b949-4f99-a9a2-49db1eba8b03" />
+<img width="768" height="408" alt="one" src="https://github.com/user-attachments/assets/45cb6806-ecb4-49fb-b206-1a07cba945a6" />
 
