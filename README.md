@@ -92,7 +92,7 @@ Métricas principales usadas:
 
 ---
 
-## Comparativa de Modelos
+## 🔖 Comparativa de Modelos
 
 Según métricas:
 
@@ -119,7 +119,7 @@ Según Matriz de Confusión:
 
 🎯 Modelo seleccionado: **XGBoost** ya que entrega un modelo robusto, con buen poder predictivo y balanceado, ideal para minimizar tanto la pérdida de clientes (por recall alto) como evitar falsos alarmas (por precisión razonable). Es un modelo que se adapta bien a la mayoría de los casos de negocio donde hay que manejar el trade-off entre capturar abandonos y no sobre-reaccionar.
 
-------
+---
 
 ## 📊 Ejemplo de Visualización
 
