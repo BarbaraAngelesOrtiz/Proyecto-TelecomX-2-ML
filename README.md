@@ -147,7 +147,7 @@ pip install pandas matplotlib seaborn numpy plotly math matplotlib requests
 
 <img width="180" height="180" alt="Screenshot 2025-08-13 034705" src="https://github.com/user-attachments/assets/bdfa03bc-d44a-4848-b622-6bac4e2dbc95" />
 
-<img width="225" height="225" alt="images (2)" src="https://github.com/user-attachments/assets/9a500d9a-22f9-4c14-b041-0f13a7fe8594" />
+<img width="180" height="180" alt="images" src="https://github.com/user-attachments/assets/8ca15294-1738-45a7-af65-7a390e468937" />
 
 <img width="180" height="180" alt="Oracle-Next-Education--e16783040" src="https://github.com/user-attachments/assets/8912c5a0-58d7-45af-ba13-d2a9f42cde5a" />
 
