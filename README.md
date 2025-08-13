@@ -92,6 +92,35 @@ Métricas principales usadas:
 
 ---
 
+## Comparativa de Modelos
+
+Según métricas:
+
+| Modelo                 | Accuracy | Precision | Recall   | F1 Score | ROC AUC  | Observaciones                                            |
+| ---------------------- | -------- | --------- | -------- | -------- | -------- | -------------------------------------------------------- |
+| **XGBoost**            | 0.783   | 0.575    | 0.701   | 0.631   | 0.845   | Buen balance general, excelente ROC AUC y recall alto  |
+| **LightGBM**           | 0.774   | 0.560    | 0.703   | 0.623   | 0.843   | Muy parecido a XGBoost, buen recall y precisión        |
+| **LogisticRegression** | 0.744  | 0.511   | 0.786   | 0.620   | 0.843   | Mejor recall (sensibilidad), menor precisión           |
+| **RandomForest**       | 0.776   | 0.560    | 0.722   | 0.631   | 0.841   | Recall alto, buen balance general                      |
+| **Stacking Ensemble**  | 0.779   | 0.578    | 0.623  | 0.600  | 0.834  | Mejor precisión, un poco menor recall y F1             |
+| **KNN**                | 0.714  | 0.475   | 0.725   | 0.574  | 0.794  | Menor accuracy y precisión, pero recall aceptable      |
+
+Según Matriz de Confusión:
+
+| Modelo                  | TN  | FP  | FN  | TP  | Observaciones                                                                  |
+| ----------------------- | --- | --- | --- | --- | ------------------------------------------------------------------------------ |
+| **KNN**                 | 735 | 300 | 103 | 271 |  Buen Recall (TP alto) <br>  Muchos Falsos Positivos (FP altos)            |
+| **LightGBM**            | 828 | 207 | 111 | 263 |  Buen equilibrio <br>  Algo más FN que KNN, pero menos FP                   |
+| **XGBoost**             | 841 | 194 | 112 | 262 |  Mejor TN (FP bajo) <br>  FN similar a LightGBM                             |
+| **RandomForest**        | 823 | 212 | 104 | 270 |  Balanceado <br>  FN ligeramente mejor que XGBoost                          |
+| **LogisticRegression**  | 754 | 281 | 80  | 294 |  Mejor FN (menos falsos negativos) <br>  Más FP (riesgo de costos mayores)  |
+| **Ensamble (Stacking)** | 865 | 170 | 141 | 233 |  Mejor TN (menos FP) <br>  Más FN (riesgo de perder clientes que abandonan) |
+
+
+🎯 Modelo seleccionado: **XGBoost** ya que entrega un modelo robusto, con buen poder predictivo y balanceado, ideal para minimizar tanto la pérdida de clientes (por recall alto) como evitar falsos alarmas (por precisión razonable). Es un modelo que se adapta bien a la mayoría de los casos de negocio donde hay que manejar el trade-off entre capturar abandonos y no sobre-reaccionar.
+
+------
+
 ## 📊 Ejemplo de Visualización
 
 #### Curvas ROC comparativas de todos los modelos
