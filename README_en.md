@@ -79,6 +79,7 @@ The following models are implemented and compared:
 - XGBoost
 - LightGBM
 - Stacking Ensemble
+- K-nearest neighbors 
 
 Main metrics used:
 
