@@ -4,7 +4,9 @@ Este proyecto utiliza técnicas de machine learning para predecir la probabilida
 
 El objetivo es desarrollar modelos capaces de identificar de forma anticipada a los clientes con mayor riesgo de cancelar sus servicios. Esto permitirá a la empresa implementar acciones preventivas para mejorar la retención, apoyándose en un pipeline de modelado sólido desde esta fase inicial. Se estudian patrones en variables contractuales, uso de servicios digitales y métodos de pago, integrando análisis exploratorio, matriz de correlaciones y explicaciones mediante SHAP.
 
-El análisis de ingenieria de datos del mismo Dataset se puede ver en la primer parte del proyecto en https://github.com/BarbaraAngelesOrtiz/Challenge2-Alura-Store
+> 🔄 **Este repositorio corresponde a la segunda etapa del proyecto**, enfocada en *Machine Learning*.  
+> La primera parte, dedicada al **análisis e ingeniería de datos** sobre el mismo dataset, puede consultarse aquí: [Challenge2-Alura-Store](https://github.com/BarbaraAngelesOrtiz/Challenge2-Alura-Store).
+
 
 ---
 
