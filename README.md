@@ -80,6 +80,7 @@ Se implementan y comparan los siguientes modelos:
 - XGBoost
 - LightGBM
 - Stacking Ensemble
+- K-nearest neighbors 
 
 Métricas principales usadas:
 
