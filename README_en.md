@@ -91,6 +91,35 @@ Main metrics used:
 
 ---
 
+## 🔖 Model Comparison
+
+By metrics:
+
+| Model                  | Accuracy | Precision | Recall | F1 Score | ROC AUC | Observations                                             |
+| ---------------------- | -------- | --------- | ------ | -------- | ------- | -------------------------------------------------------- |
+| **XGBoost**            | 0.783    | 0.575     | 0.701  | 0.631    | 0.845   | Good overall balance, excellent ROC AUC, and high recall |
+| **LightGBM**           | 0.774    | 0.560     | 0.703  | 0.623    | 0.843   | Very similar to XGBoost, good recall and precision       |
+| **LogisticRegression** | 0.744    | 0.511     | 0.786  | 0.620    | 0.843   | Better recall (sensitivity), lower precision             |
+| **RandomForest**       | 0.776    | 0.560     | 0.722  | 0.631    | 0.841   | High recall, good overall balance                        |
+| **Stacking Ensemble**  | 0.779    | 0.578     | 0.623  | 0.600    | 0.834   | Better precision, slightly lower recall and F1           |
+| **KNN**                | 0.714    | 0.475     | 0.725  | 0.574    | 0.794   | Lower accuracy and precision, but acceptable recall      |
+
+
+According to Confusion Matrix:
+
+| Model | TN | FP | FN | TP | Observations |
+| ----------------------- | --- | --- | --- | --- | ------------------------------------------------------------------------------ |
+| **KNN** | 735 | 300 | 103 | 271 | Good Recall (high TP) <br> Many False Positives (high FP) |
+| **LightGBM** | 828 | 207 | 111 | 263 | Good Balance <br> Somewhat more FN than KNN, but less FP |
+| **XGBoost** | 841 | 194 | 112 | 262 | Better TN (low FP) <br> FN similar to LightGBM |
+| **RandomForest** | 823 | 212 | 104 | 270 | Balanced <br> FN slightly better than XGBoost |
+| **LogisticRegression** | 754 | 281 | 80 | 294 | Better FN (fewer false negatives) <br> More FP (risk of higher costs) |
+| **Ensemble (Stacking)** | 865 | 170 | 141 | 233 | Better TN (less FP) <br> More FN (risk of losing churning customers) |
+
+🎯 Selected model: **XGBoost** as it delivers a robust, well-balanced model with good predictive power, ideal for minimizing both customer loss (due to high recall) and avoiding false alarms (due to reasonable accuracy). It's a model that adapts well to most business cases where the trade-off between capturing churn and not overreacting must be managed.
+
+---
+
 ## 📊 Visualization Example
 
 #### Comparative ROC curves of all models
