@@ -90,6 +90,11 @@ Métricas principales usadas:
 
 ### Recuento de evasión por variables categóricas
 
+#### Comparación de modelos métricas de clasificación
+<img width="846" height="548" alt="Comparación de modelos métricas de clasificación" src="https://github.com/user-attachments/assets/cbaa9079-bac5-47aa-84e3-d16b6441f5fa" />
+
+
+
 ---
 
 ## 🛠️ Instrucciones para Ejecutar el Notebook
