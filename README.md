@@ -149,7 +149,7 @@ git clone https://github.com/usuario/proyecto-churn.git
 ```bash
 pip install pandas matplotlib seaborn numpy plotly math matplotlib requests
 ```
-3. Abrí el notebook en Jupyter, VSCode o Google Colab:
+3. Abrí el notebook en Jupyter, VSCode o Google Colab
 
 4. Ejecutá las celdas secuencialmente para replicar el análisis completo.
 
