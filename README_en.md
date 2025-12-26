@@ -36,7 +36,7 @@ The objective is to develop models capable of early identification of customers 
 ├── TelecomX_LATAM2_en.ipynb # English code
 ├── imag # Graphics
 ├── src # Dataset
-├── requirements.txt # Libraries needed to run the project
+└── requirements.txt # Libraries needed to run the project
 ```
 
 ---
