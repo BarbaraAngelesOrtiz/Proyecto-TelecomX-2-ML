@@ -37,7 +37,7 @@ El objetivo es desarrollar modelos capaces de identificar de forma anticipada a 
 ├── TelecomX_LATAM2_en.ipynb  #Código en inglés          
 ├── imag                      # Gráficos
 ├── src                       # Dataset
-├── requirements.txt          # Librerías necesarias para ejecutar el proyecto
+└── requirements.txt          # Librerías necesarias para ejecutar el proyecto
 ```
 
 ---
