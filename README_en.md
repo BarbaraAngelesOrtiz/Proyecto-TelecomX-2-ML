@@ -161,7 +161,7 @@ pip install pandas matplotlib seaborn numpy plotly math matplotlib requests
 
 ---
 
-##Author
+## Author
 **Bárbara Ángeles Ortiz**
 
 <img src="https://github.com/user-attachments/assets/30ea0d40-a7a9-4b19-a835-c474b5cc50fb" width="115">
